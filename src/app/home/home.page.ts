@@ -7,6 +7,11 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  items = [
+    { id:1, name: 'teste', value: 123 },
+    { id:2, name: 'teste2', value: 123 },
+    { id:3, name: 'teste3', value: 123 },
+  ]
+  constructor() { }
 
 }
